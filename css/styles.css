@@ -144,7 +144,8 @@ button{
 }
 .nav-link:hover, 
 .nav-link:focus{
-    color:var(--accent-color)
+    color:var(--accent-color);
+    transition-duration: 250ms;
 }
 
 .active{
@@ -171,6 +172,7 @@ button{
 .contact-link:hover,
 .contact-link:focus {
     color: var(--accent-color);
+    transition-duration: 250ms;
 }
 
 .hiro {
@@ -210,6 +212,7 @@ button{
 .button:hover,
 .button:focus{
     background-color: var(--buttin-color);
+    transition-duration: 250ms;
 
 }
 .visually-hidden{
@@ -337,6 +340,7 @@ text-align: center;
 .socials-link:hover,
 .socials-link:focus{
     background-color: var(--buttin-color);
+    transition-duration: 250ms;
 }
 .content{
     background-color: var(--page-title-color);
@@ -385,11 +389,13 @@ text-align: center;
 .customers-nav:hover,
 .customers-nav:focus{
     border: 1px solid var(--buttin-color);
+    transition-duration: 250ms;
 }
 
 .customers-nav:hover .customers-icon,
 .customers-nav:focus .customers-icon{
     fill: var(--buttin-color);
+    transition-duration: 250ms;
 }
 
 .footer{
@@ -445,7 +451,8 @@ text-align: center;
 .button-line:focus{
     color: var(--footer-text-color);
     background-color: var(--buttin-color);
-    box-shadow: 0px 4px 4px 0px #00000040;;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    transition-duration: 250ms;
 }
 
 .card-title{
@@ -492,6 +499,7 @@ text-align: center;
 .portfolio-card-nav:hover .overley,
 .portfolio-card-nav:focus .overley{
    transform: translateY(0);
+transition-duration: 250ms;
 }
 
 .portfolio-list{
@@ -520,6 +528,7 @@ text-align: center;
 .portfolio-card-nav:hover,
 .portfolio-card-nav:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    transition-duration: 250ms;
 }
 
 .porfolio{
@@ -557,6 +566,7 @@ border-bottom: 1px solid var(--footer-text-color);}
 .footer-socials-link:hover,
 .footer-socials-link:focus{
     background-color: var(--background-icon-footer);
+    transition-duration: 250ms;
 }
 
 /* Modal windoow*/
@@ -617,6 +627,7 @@ border-bottom: 1px solid var(--footer-text-color);}
 .modal-nav:focus{
     color: var(--page-title-color);
     background-color: var(--buttin-color);
+    transition-duration: 250ms;
 }
 
 
